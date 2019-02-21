@@ -1,7 +1,8 @@
 {
-  "name": "azuracast/azuracast",
-  "description": "The AzuraCast standalone radio station management suite.",
+  "name": "azuracast/azuracast-app",
+  "description": "The web application commponent for the AzuraCast web radio station management suite.",
   "license": "Apache-2.0",
+  "type": "azuracast-app",
   "require": {
     "php": ">=7.2",
     "ext-fileinfo": "*",
@@ -13,6 +14,8 @@
     "ext-json": "*",
     "ext-redis": "*",
     "ext-PDO": "*",
+
+
 
     "azuracast/azuracore": "dev-master",
     "azuracast/azuraforms": "dev-master",
@@ -40,7 +43,6 @@
     "symfony/process": "^4.1",
     "symfony/property-access": "^4.2",
     "ramsey/uuid": "^3.8",
-    "wikimedia/composer-merge-plugin": "^1.4",
     "zircote/swagger-php": "^3.0"
   },
   "require-dev": {
